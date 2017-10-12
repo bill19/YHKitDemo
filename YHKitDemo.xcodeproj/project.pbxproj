@@ -37,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6D6A07D31F8F878800A91AFF /* YHLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHLabel.m; sourceTree = "<group>"; };
+		6D6A07D41F8F878800A91AFF /* YHKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHKit.h; sourceTree = "<group>"; };
+		6D6A07D51F8F878900A91AFF /* YHLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHLabel.h; sourceTree = "<group>"; };
 		6D753CE71F8F8681004FFE8C /* YHKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YHKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D753CEA1F8F8681004FFE8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6D753CEB1F8F8681004FFE8C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -93,9 +96,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		6D6A07D21F8F877400A91AFF /* YHKit */ = {
+			isa = PBXGroup;
+			children = (
+				6D6A07D41F8F878800A91AFF /* YHKit.h */,
+				6D6A07D51F8F878900A91AFF /* YHLabel.h */,
+				6D6A07D31F8F878800A91AFF /* YHLabel.m */,
+			);
+			path = YHKit;
+			sourceTree = "<group>";
+		};
 		6D753CDE1F8F8681004FFE8C = {
 			isa = PBXGroup;
 			children = (
+				6D6A07D21F8F877400A91AFF /* YHKit */,
 				6D753CE91F8F8681004FFE8C /* YHKitDemo */,
 				6D753D051F8F8681004FFE8C /* YHKitDemoTests */,
 				6D753D101F8F8681004FFE8C /* YHKitDemoUITests */,
