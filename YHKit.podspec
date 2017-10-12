@@ -13,7 +13,7 @@ s.license      = "MIT"
 
 s.author             = { "HaoSun" => "sunhao.private@foxmail.com" }
 s.source       = { :git => "https://github.com/bill19/YHKitDemo.git", :tag => "1.0.0" }
-s.source_files  = 'MTKit/*.{h,m}'
+s.source_files  = "YHKit/**/*"
+#s.dependency 'Masonry', '~> 1.0.1'
 s.requires_arc = true
-s.dependency 'Masonry', '~> 1.1.0'
 end

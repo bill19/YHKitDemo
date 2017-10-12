@@ -7,7 +7,7 @@
 //
 
 #import "YHLabel.h"
-#import "Masonry.h"
+//#import "Masonry.h"
 @interface YHLabel ()
 
 @end
@@ -44,19 +44,19 @@
 
 
 - (void)setupLayout {
-    [_titleLab mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.equalTo(self.mas_left).offset(0.0f);
-        make.top.equalTo(self.mas_top).offset(0.0f);
-        make.bottom.equalTo(self.mas_bottom).offset(0.0f);
-    }];
-    [_contentLab mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.equalTo(_titleLab.mas_right).offset(0.0f);
-        make.top.equalTo(self.mas_top).offset(0.0f);
-        make.right.equalTo(self.mas_right).offset(0.0f);
-        make.bottom.equalTo(self.mas_bottom).offset(0.0f);
-    }];
-    [_contentLab setContentCompressionResistancePriority:200 forAxis:UILayoutConstraintAxisHorizontal];
-    [_contentLab setContentHuggingPriority:200 forAxis:UILayoutConstraintAxisHorizontal];
+//    [_titleLab mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.left.equalTo(self.mas_left).offset(0.0f);
+//        make.top.equalTo(self.mas_top).offset(0.0f);
+//        make.bottom.equalTo(self.mas_bottom).offset(0.0f);
+//    }];
+//    [_contentLab mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.left.equalTo(_titleLab.mas_right).offset(0.0f);
+//        make.top.equalTo(self.mas_top).offset(0.0f);
+//        make.right.equalTo(self.mas_right).offset(0.0f);
+//        make.bottom.equalTo(self.mas_bottom).offset(0.0f);
+//    }];
+//    [_contentLab setContentCompressionResistancePriority:200 forAxis:UILayoutConstraintAxisHorizontal];
+//    [_contentLab setContentHuggingPriority:200 forAxis:UILayoutConstraintAxisHorizontal];
 }
 
 /**

@@ -4,7 +4,7 @@ workspace "YHKitDemo.xcworkspace"
 xcodeproj "YHKitDemo.xcodeproj"
 
 # 最低要求版本
-platform :ios, "8.0"
+platform :ios, "9.0"
 # 去除pod库警告
 #inhibit_all_warnings!
 
@@ -13,6 +13,6 @@ platform :ios, "8.0"
 # pod库只存在当前目标
 # pod库只存在当前目标
 target :"YHKitDemo" do
-pod 'Masonry', '~> 1.1.0’
+pod 'Masonry', '~> 1.0.1’
 end
 
